@@ -57,7 +57,7 @@ main{
     margin: 80px 245px 32px 245px;
     max-width: 852px;
 }
-.main-part-1{
+.main-part-1,.main-part-2{
     margin: 80px 97px;
     align-items: center;
     justify-content: space-around;
@@ -126,3 +126,66 @@ padding: 12px 20px;
 .about-wd{
     margin-bottom:48px ;
 }
+.video{
+    margin:48px;
+    padding: 32px;
+
+align-self: stretch;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+.skill-1{
+    padding: 40px;
+    box-shadow:0px 4px 20px 0px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.skill-2{
+    padding: 40px;
+    box-shadow:0px 4px 20px 0px;
+    border-radius: 16px;
+    
+background: rgba(0, 76, 232, 0.05);
+}
+.skill-3{
+    padding: 40px;
+    box-shadow:0px 4px 20px 0px;
+    border-radius: 16px;
+    
+background: rgba(255, 223, 0, 0.05);
+}
+.skill-tittle{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px;
+align-self: stretch;
+}
+.skill-description{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+align-self: stretch;
+}
+.li a{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+align-self: stretch;
+list-style-type: none;
+}
+
+
