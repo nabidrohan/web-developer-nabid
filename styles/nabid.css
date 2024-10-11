@@ -1,0 +1,128 @@
+header{
+    background-image: url(../assets/Hero-bg.png);
+    margin-bottom: 74px;
+   
+}
+.banner{
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+   padding: 45px 220px 45px 250px;
+   max-width:998px;;
+  
+  
+}
+.banner-image{
+    width: 142.104px;
+    height: 86.016px;
+    flex-shrink: 0;
+   
+}
+.banner-headline{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-weight: 800;
+line-height: 68px;
+width: 998px;
+font-size: 50px;
+}
+.banner-description{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+.btn-1{
+    color: #FFF;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 8px;
+background: #0D1321;
+
+padding: 21px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-bottom: 25px;
+}
+main{
+    margin: 80px 245px 32px 245px;
+    max-width: 852px;
+}
+.main-part-1{
+    margin: 80px 97px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.why-wd{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.answer{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+     
+}
+.part-1,.part-2,.part-3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 48px;
+}
+.learn-headline{
+    color: rgba(13, 19, 33, 0.70);
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+width: 390px;
+}
+.learn-description{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+width: 468px;
+padding-bottom: 32px;
+}
+.img-p1{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+.learn-more{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 12px 20px;
+}
+.about-wd{
+    margin-bottom:48px ;
+}
