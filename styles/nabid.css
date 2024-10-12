@@ -8,7 +8,9 @@ header{
    justify-content: space-around;
    text-align: center;
    padding: 45px 220px 45px 250px;
-   max-width:998px;;
+  
+   display: flex;
+   flex-direction: column;
   
   
 }
@@ -25,6 +27,7 @@ font-weight: 800;
 line-height: 68px;
 width: 998px;
 font-size: 50px;
+text-align: center;
 }
 .banner-description{
     color: #0D1321;
@@ -55,12 +58,14 @@ margin-bottom: 25px;
 }
 main{
     margin: 80px 245px 32px 245px;
-    max-width: 852px;
+   
 }
 .main-part-1,.main-part-2{
     margin: 80px 97px;
     align-items: center;
     justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 
 }
 .why-wd{
@@ -185,7 +190,74 @@ font-weight: 700;
 line-height: normal;
 text-decoration-line: underline;
 align-self: stretch;
-list-style-type: none;
+list-style: none;
 }
+.support{
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position:100% ;
+    border-radius: 16px;
+     
+     margin: 80px 245px 32px 245px;
+    max-width: 852px;
+    padding:10px 48px;
+    align-items: center;
+    
+   
+}
+.support-headline{
+    color: #FFF;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
 
+}
+.support-description{
+    color: #FFF;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 24px;
+justify-content: space-around;
+opacity: 0.7;
+
+}
+.submit{
+    color:#0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 17px 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-bottom: 25px;
+}
+.textarea{
+width: 348px;
+height: 30px;
+padding: 19px 20px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: #FFF;
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ 
+}
 
