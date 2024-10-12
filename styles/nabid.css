@@ -286,4 +286,24 @@ background: #FFF;
     gap: 10px;
  
 }
+.footer-text{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+.icon{
+    display: flex;
+align-items: center;
+gap: 24px;
+}
 
